@@ -22,7 +22,7 @@ return [
      ========================================================= */
     'parent' => [
         'name'    => 'CRAMARC',
-        'url'     => 'https://cramarc.com',
+        'url'     => '/',
         'tagline' => 'Una productora, tres formas de contar tu historia',
 
         'palette' => [
@@ -59,14 +59,14 @@ return [
                 'accent' => '#D6451F',
             ],
             [
-                'name'   => 'CRAMARC Sports',
+                'name'   => 'ATHLETICS CRAMARC',
                 'tag'    => 'Deporte profesional',
                 'blurb'  => 'Foto y video deportivo para atletas profesionales. Capturamos cada jugada con calidad de transmisión.',
                 'url'    => '?brand=b',
                 'accent' => '#1F8F4D',
             ],
             [
-                'name'   => 'CRAMARC Tours',
+                'name'   => 'VISORA',
                 'tag'    => 'Recorridos virtuales',
                 'blurb'  => 'Tours virtuales 360° y tomas aéreas con dron para bienes raíces. Tu propiedad, recorrible desde cualquier lugar.',
                 'url'    => '?brand=c',
