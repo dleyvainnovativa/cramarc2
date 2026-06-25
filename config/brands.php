@@ -121,6 +121,7 @@ return [
             ['name' => 'Insta360 X4', 'spec' => '360° · 8K', 'icon' => 'fa-panorama'],
             ['name' => 'Estabilización', 'spec' => 'Gimbal profesional', 'icon' => 'fa-video'],
         ],
+        'hero_variant' => 'centered',
     ],
 
 
@@ -145,13 +146,15 @@ return [
             'title'       => 'CRAMARC Digital Marketing — Foto, video y dron para tu marca',
             'description' => 'Producción de contenido visual para redes y negocios: fotografía, video, social media y tomas aéreas con dron. Contenido que destaca.',
         ],
-
+        'hero_variant' => 'split',
         'hero' => [
             'eyebrow'  => 'Marketing & contenido',
             'headline' => 'Contenido que <em>hace crecer</em> tu marca',
             'lead'     => 'Fotografía, video y tomas con dron para redes sociales y negocios de cualquier giro. Producimos el contenido que tu marca necesita para destacar.',
             'cta'      => ['label' => 'Ver lo que hacemos', 'href' => '#empresas'],
             'cta_alt'  => ['label' => 'Contáctanos', 'href' => '#contacto'],
+            // 'media'     => 'images/hero/marketing.jpg',   // picsum fallback if omitted
+            'media_alt' => 'Producción de contenido CRAMARC',
         ],
 
         'services' => [
@@ -272,13 +275,15 @@ return [
             'title'       => 'CRAMARC Sports — Foto y video para atletas profesionales',
             'description' => 'Fotografía y video deportivo para atletas profesionales. Capturamos cada jugada con calidad de transmisión para tu marca personal y tu carrera.',
         ],
-
+        'hero_variant' => 'showreel',
         'hero' => [
             'eyebrow'  => 'Deporte profesional',
             'headline' => 'Cada jugada, con <em>calidad de transmisión</em>',
             'lead'     => 'Fotografía y video deportivo para atletas profesionales. Capturamos tu juego con el detalle y la intensidad que tu carrera merece.',
             'cta'      => ['label' => 'Ver lo que hacemos', 'href' => '#empresas'],
             'cta_alt'  => ['label' => 'Contáctanos', 'href' => '#contacto'],
+            // 'video'  => 'videos/sports-reel.mp4',         // muted autoplay loop; keep it short + light (<8s, <4MB ideal)
+            // 'poster' => 'images/hero/sports-poster.jpg',  // shows before/while video loads (picsum fallback)
         ],
 
         'services' => [
@@ -393,19 +398,22 @@ return [
             'paper'       => '#FAF8F5',
         ],
 
-        'logo' => 'images/logo-c.svg',
+        'logo' => 'images/logo-c.png',
 
         'meta' => [
             'title'       => 'CRAMARC Tours — Recorridos virtuales 360° y dron para bienes raíces',
             'description' => 'Tours virtuales 360° y tomas aéreas con dron para bienes raíces. Tus propiedades recorribles desde cualquier lugar, las 24 horas.',
         ],
-
+        'hero_variant' => 'split',
         'hero' => [
             'eyebrow'  => 'Recorridos virtuales',
             'headline' => 'Tu propiedad, <em>recorrible desde cualquier lugar</em>',
             'lead'     => 'Tours virtuales 360° y tomas aéreas con dron para bienes raíces. Tus compradores recorren la propiedad las 24 horas, antes de pisarla.',
             'cta'      => ['label' => 'Ver lo que hacemos', 'href' => '#empresas'],
             'cta_alt'  => ['label' => 'Contáctanos', 'href' => '#contacto'],
+            'embed'       => 'https://kuula.co/share/XXXXX?fs=1&vr=0&autorotate=0.3&logo=0',  // REPLACE
+            'embed_title' => 'Recorrido 360 de muestra',
+            'embed_badge' => 'Recorrido en vivo',
         ],
 
         'services' => [
